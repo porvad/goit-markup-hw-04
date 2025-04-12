@@ -95,6 +95,7 @@ a:hover {
 
 .header_list_a.current{
     position: relative;
+    color: #404bbf;
 }
 
 .header_list_a.current::after {
@@ -157,12 +158,16 @@ p {
 }
 
 .order_service {
-    background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/office-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 188px 0;
     margin: 0 auto;
+    max-width: 1440px;
 }
 
 .order_service>div {
@@ -195,6 +200,7 @@ p {
     height: 56px;
     border-radius: 4px;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order_service_btn:hover {

@@ -7,6 +7,12 @@
     --icon-color: #f4f4fd;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html, body{
     margin: 0;
 }
@@ -510,4 +516,62 @@ p {
 
 .social_icon{
     fill: var(--icon-color);
+}
+
+.form_content{
+    margin-left: 80px;
+}
+
+.form_text{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.form{
+    display: flex;
+    gap: 24px;
+}
+
+.input_e-mail{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+.form_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 165px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn_icon{
+    margin-left: 16px;
 }

@@ -371,6 +371,10 @@ p {
     background-color: #404BBF;
 }
 
+.icon{
+    fill: var(--icon-white-color);
+}
+
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;

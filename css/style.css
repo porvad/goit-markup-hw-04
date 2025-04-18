@@ -172,7 +172,7 @@ p {
 }
 
 .order_service {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/office-background.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -278,7 +278,7 @@ p {
 }
 
 .features_titre, .portfolio_titre{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -371,10 +371,6 @@ p {
     background-color: #404BBF;
 }
 
-.icon{
-    fill: var(--icon-white-color);
-}
-
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -438,6 +434,7 @@ p {
 
 .portfolio_titre{
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .portfolio_text{

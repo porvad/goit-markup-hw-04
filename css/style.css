@@ -692,7 +692,7 @@ input::placeholder {
     border-color: #4D5AE5;
 }
 
-.user_input:focus .user_input_icon{
+.user_input:focus + .user_input_icon{
     fill: #4D5AE5;
 }
 
@@ -743,7 +743,7 @@ input::placeholder {
     fill: transparent;
 }
 
-.user_privacy:checked .privacy_span {
+.user_privacy:checked + .privacy_span {
     background-color: var(--blue-color);
     border: none;
     fill: var(--icon-color);
